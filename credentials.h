@@ -1,0 +1,8 @@
+#ifndef CREDENTIALS_H
+#define CREDENTIALS_H
+
+#define WIFI_SSID "YOUR_SSID"
+#define WIFI_PASSWD "YOUR_PASSWORD"
+#define TIBBER_TOKEN "YOUR_TOKEN"
+
+#endif
