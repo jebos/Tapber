@@ -1,4 +1,4 @@
-# EnergyPriceCalculator
+# Tapber Show
 
 ESP8266 System that requests current prices from tibber api and calculates the prices of an action according to an predefined energy usage profile
 
@@ -20,5 +20,8 @@ Current State:
 - [x] Add Screen to show best price for action
 - [x] Add File to centralize useage profiles
 - [ ] Cleanup Code
-- [ ] Add more Screens to provide more detailed informations
-- [ ] Create 3d model housing
+- [x] Add more Screens to provide more detailed informations
+- [x] Create 3d model housing
+- [x] Support done timer devices
+
+![Tapber Show Circuit](./circuit/tapbershow_circuit.jpg)

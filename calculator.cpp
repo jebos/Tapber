@@ -92,8 +92,9 @@ double Calculator::calculateCost(const std::vector<TibberPriceInfo>& today,
   
   for (int i = 0; i < profile.size(); ++i) {
     if (priceSource->size() <= currentPriceIndex) { 
-      break;
+      return -1;
     }
+    
     
     totalCostOfAction += profile.at(i) / 1000.0 * priceSource->at(currentPriceIndex).price;
 
@@ -124,7 +125,7 @@ double Calculator::calculateCost(const std::vector<TibberPriceInfo>& today,
     }
   }
 
-  // Serial.println("totalCostOfAction" + String(totalCostOfAction));
+  Serial.println("totalCostOfAction" + String(totalCostOfAction));
 
   return totalCostOfAction;
 }

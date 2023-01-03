@@ -30,7 +30,14 @@ namespace ConsumptionProfile {
   // entries in w/h
   static const std::vector<double> dryer_closetDry = {4, 42, 92, 93, 95, 95, 95, 96, 96, 97, 94, 90, 85, 80, 55};
   static const std::vector<double> washingMachine_60deg = {24, 16, 34, 14, 14, 18, 12, 12, 12, 209, 340, 340, 18};
+  static const std::vector<double> washingMachine_40deg = {10, 180, 290, 11, 11, 14, 15, 15, 15, 15, 16, 15, 16, 15, 35, 1};
 
+  // sometimes the timer in the appliance is setting the start time, sometimes its setting the done time, default to start time and allow adjustments if needed, go with hours not minutes for now
+  // todo: should i change this to bool and count the entries in the energyProfile?
+  // todo: change to minutes?
+  static const int washingMachine_40deg_TimerAdjustment = -3;
+  static const int washingMachine_60deg_TimerAdjustment = -2;
+  static const int dryer_closetDry_TimerAdjustment = -3;
 }
 
 #endif
