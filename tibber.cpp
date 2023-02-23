@@ -27,7 +27,7 @@ namespace CONSTANTS {
   const int   HTTPS_PORT = 443;
     
   // SHA1 Fingerprint of api.tibber.com certificate
-  const char SSL_FINGERPRINT[] PROGMEM = "6C AB 8F C7 1B DB CD D2 5E A9 74 2C 53 47 73 20 7B 2E 96 B1";
+  const char SSL_FINGERPRINT[] PROGMEM = "01 E9 FC DD 05 1D 0B C3 21 DB 38 0E 8C C1 10 4E 38 CF 40 DF";
 }
 
 Tibber::Tibber() {
